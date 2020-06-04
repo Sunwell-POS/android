@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#e0e9f2"
+    >
+
+    <!--  bagian layout_dashboard  -->
+    <LinearLayout
+        android:id="@+id/panel_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#0f7858">
+
+        <ImageButton
+            android:id="@+id/button_dashboard"
+            android:layout_width="@dimen/big_button"
+            android:layout_height="@dimen/big_button"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/home" />
+
+        <TextView
+            android:id="@+id/text_dashboards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_short_space"
+            android:text="@string/dashboard"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textColor="#f6f7f7"
+            android:textSize="@dimen/mid_large_font"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/panel_pos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/button_pos"
+                android:layout_width="@dimen/big_button"
+                android:layout_height="@dimen/big_button"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/money" />
+
+            <TextView
+                android:id="@+id/text_pos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/normal_space"
+                android:text="@string/point_of_sales"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#0f7858"
+                android:textSize="@dimen/mid_large_font"/>
+
+            <ImageButton
+                android:id="@+id/button_show_pos_sub_menu"
+                android:layout_width="@dimen/normal_big_button"
+                android:layout_height="@dimen/normal_big_button"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/down_arrow" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="@dimen/big_button"
+                android:layout_height="1dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/products"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/text_new_pos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/normal_space"
+                android:text="@string/newVal"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#0f7858"
+                android:textSize="@dimen/mid_large_font"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!-- bagian sales -->
+
+    <LinearLayout
+        android:id="@+id/panel_sales"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/button_sales"
+            android:layout_width="@dimen/big_button"
+            android:layout_height="@dimen/big_button"
+            app:srcCompat="@drawable/sales"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/text_sales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_space"
+            android:text="@string/sales"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textColor="#0f7858"
+            android:textSize="@dimen/mid_large_font" />
+    </LinearLayout>
+
+    <!-- bagian reports -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/button_reports"
+            android:layout_width="@dimen/big_button"
+            android:layout_height="@dimen/big_button"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/reports" />
+
+        <TextView
+            android:id="@+id/text_reports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_space"
+            android:text="@string/reports"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textColor="#0f7858"
+            android:textSize="@dimen/mid_large_font" />
+    </LinearLayout>
+
+    <!-- bagian analytics -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/button_analytics"
+            android:layout_width="@dimen/big_button"
+            android:layout_height="@dimen/big_button"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/analytics" />
+
+        <TextView
+            android:id="@+id/text_analytics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_space"
+            android:text="@string/analytics"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textColor="#0f7858"
+            android:textSize="@dimen/mid_large_font" />
+    </LinearLayout>
+
+    <!-- bagian products -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/button_products"
+                android:layout_width="@dimen/big_button"
+                android:layout_height="@dimen/big_button"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/products" />
+
+            <TextView
+                android:id="@+id/text_products"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/normal_space"
+                android:text="@string/products"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#0f7858"
+                android:textSize="@dimen/mid_large_font"/>
+
+            <ImageButton
+                android:id="@+id/button_show_products_sub_menu"
+                android:layout_width="@dimen/normal_big_button"
+                android:layout_height="@dimen/normal_big_button"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/down_arrow" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="@dimen/big_button"
+                android:layout_height="1dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/products"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/text_product_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/normal_space"
+                android:text="@string/products_list"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#0f7858"
+                android:textSize="@dimen/mid_large_font"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="@dimen/big_button"
+                android:layout_height="1dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/products"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/text_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/normal_space"
+                android:text="@string/categories_list"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#0f7858"
+                android:textSize="@dimen/mid_large_font"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- bagian inventory -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/button_inventory"
+                android:layout_width="@dimen/big_button"
+                android:layout_height="@dimen/big_button"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/inventory"/>
+
+            <TextView
+                android:id="@+id/text_inventory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/normal_long_space"
+                android:textSize="@dimen/mid_large_font"
+                android:textColor="#0f7858"
+                android:text="@string/inventory" />
+            <ImageButton
+                android:id="@+id/button_show_inventory_sub_menu"
+                android:layout_width="@dimen/normal_big_button"
+                android:layout_height="@dimen/normal_big_button"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/down_arrow" />
+        </LinearLayout>L
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="@dimen/big_button"
+                android:layout_height="1dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/products"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/text_onhand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/normal_space"
+                android:text="@string/stock_onhand"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#0f7858"
+                android:textSize="@dimen/mid_large_font"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="@dimen/big_button"
+                android:layout_height="1dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/products"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/text_mutation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/normal_space"
+                android:text="@string/stock_mutation"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#0f7858"
+                android:textSize="@dimen/mid_large_font"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="@dimen/big_button"
+                android:layout_height="1dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/products"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/text_stock_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/normal_space"
+                android:text="@string/stock_card"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#0f7858"
+                android:textSize="@dimen/mid_large_font"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- bagian customers -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/button_customers"
+            android:layout_width="@dimen/big_button"
+            android:layout_height="@dimen/big_button"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/customers"/>
+        <TextView
+            android:id="@+id/text_customers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_long_space"
+            android:textSize="@dimen/mid_large_font"
+            android:textColor="#0f7858"
+            android:text="@string/customers" />
+    </LinearLayout>
+
+    <!-- bagian payments -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/button_payments"
+            android:layout_width="@dimen/big_button"
+            android:layout_height="@dimen/big_button"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/payments"/>
+        <TextView
+            android:id="@+id/text_payments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/normal_long_space"
+            android:textSize="@dimen/mid_large_font"
+            android:textColor="#0f7858"
+            android:text="@string/payments" />
+    </LinearLayout>
+
+    <!-- bagian staffs -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/button_staffs"
+                android:layout_width="@dimen/big_button"
+                android:layout_height="@dimen/big_button"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/staffs" />
+
+            <TextView
+                android:id="@+id/text_staffs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/normal_space"
+                android:text="@string/staffs"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#0f7858"
+                android:textSize="@dimen/mid_large_font"/>
+
+            <ImageButton
+                android:id="@+id/button_show_staffs_sub_menu"
+                android:layout_width="@dimen/normal_big_button"
+                android:layout_height="@dimen/normal_big_button"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/down_arrow" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="@dimen/big_button"
+                android:layout_height="1dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/products"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/text_staff_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/normal_space"
+                android:text="@string/staff_list"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#0f7858"
+                android:textSize="@dimen/mid_large_font"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="@dimen/big_button"
+                android:layout_height="1dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/products"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/text_staff_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/normal_space"
+                android:text="@string/staff_type"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:textColor="#0f7858"
+                android:textSize="@dimen/mid_large_font"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

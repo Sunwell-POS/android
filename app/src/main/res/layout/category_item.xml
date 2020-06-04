@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical">
+
+
+
+            <!--<AutoCompleteTextView-->
+                <!--android:id="@+id/input_product"-->
+                <!--android:layout_width="@dimen/normal_long_input"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="@dimen/normal_short_space"-->
+                <!--android:layout_marginLeft="@dimen/normal_short_space" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/input_qty"-->
+                <!--android:layout_width="@dimen/short_input"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="@dimen/normal_short_space"-->
+                <!--android:layout_marginLeft="@dimen/normal_short_space"-->
+                <!--android:inputType="number" />-->
+
+            <TextView
+                android:id="@+id/text_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/long_space"/>
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/button_delete_item"-->
+                <!--android:layout_width="@dimen/normal_small_image"-->
+                <!--android:layout_height="@dimen/normal_small_image"-->
+                <!--android:scaleType="fitXY"-->
+                <!--app:srcCompat="@drawable/wrong"/>-->
+        </LinearLayout>
+

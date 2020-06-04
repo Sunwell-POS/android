@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/text_no"
+        android:layout_width="@dimen/extra_short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"/>
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="@dimen/normal_short_text"
+        android:minWidth="@dimen/normal_short_text"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+    />
+
+    <EditText
+        android:id="@+id/input_method"
+        android:layout_width="@dimen/normal_short_text"
+        android:minWidth="@dimen/normal_short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:visibility="@string/secondary_empty_column"/>
+
+    <Spinner
+        android:id="@+id/spinner_active"
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:entries="@array/array_boolean"
+        android:visibility="@string/secondary_empty_column"/>
+
+    <EditText
+        android:id="@+id/input_discount"
+        android:layout_width="@dimen/short_long_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:maxLines="1"
+        android:visibility="@string/secondary_empty_column"
+        />
+
+    <EditText
+        android:id="@+id/input_min_payment"
+        android:layout_width="@dimen/short_long_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:maxLines="1"
+        android:visibility="@string/secondary_empty_column" />
+
+    <EditText
+        android:id="@+id/input_max_payment"
+        android:layout_width="@dimen/short_long_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:maxLines="1"
+        android:visibility="@string/secondary_empty_column" />
+
+    <LinearLayout
+        android:layout_width="@dimen/short_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_search"
+            android:layout_width="@dimen/normal_big_button"
+            android:layout_height="@dimen/normal_big_button"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/search"/>
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="72dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="6dp"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/button_edit"-->
+            <!--android:layout_width="36dp"-->
+            <!--android:layout_height="36dp"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--app:srcCompat="@drawable/edit"/>-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/button_delete"-->
+            <!--android:layout_width="36dp"-->
+            <!--android:layout_height="36dp"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--app:srcCompat="@drawable/delete"/>-->
+
+    <!--</LinearLayout>L-->
+
+</LinearLayout>

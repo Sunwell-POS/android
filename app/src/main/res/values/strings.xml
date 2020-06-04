@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">POS-mobile</string>
+    <string name="pos">Point of Sales</string>
+    <string name="main_desc">This website is on maintenance, you can log in or register </string>
+    <string name="log_in">Log In</string>
+    <string name="log_out">Log Out</string>
+    <string name="profile">Profile</string>
+    <string name="register">Register</string>
+    <string name="company_sign_in_greet">Sign In to Your Business</string>
+    <string name="company_email_greet">Enter your company\'s email</string>
+    <string name="cont">Continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="incorrect_company_name">Can\'t find the specified comapny</string>
+    <string name="welcome">Welcome to</string>
+    <string name="sign_in_greet">Enter your email address and password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="fail_login">Please provide the correct username / password</string>
+    <string name="analytics">Analytics</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="sales">Sales</string>
+    <string name="reports">Reports</string>
+    <string name="product">Product</string>
+    <string name="products">Products</string>
+    <string name="products_list">Products List</string>
+    <string name="categories_list">Categories</string>
+    <string name="add_incoming_stock">Add Incoming Stock</string>
+    <string name="add_more_product">Add more product</string>
+    <string name="add_category">Add Category</string>
+    <string name="add_product">Add Product</string>
+    <string name="add_user">Add User</string>
+    <string name="add_user_group">Add User Group</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="add_invoice_item">Add Invoice Item</string>
+    <string name="add_item">Add Item</string>
+    <string name="add_payment_method">Add Method</string>
+    <string name="edit_user">Edit User</string>
+    <string name="edit_user_group">Edit User Group</string>
+    <string name="edit_category">Edit Category</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="edit_customer">Edit Customer</string>
+    <string name="edit_invoice_item">Edit Invoice Item</string>
+    <string name="edit_payment_method">Edit Payment Method</string>
+    <string name="split_bill">Split Bill</string>
+    <string name="to">to</string>
+    <string name="no_mark">#</string>
+    <string name="name">Name</string>
+    <string name="warehouse">Warehouse</string>
+    <string name="image">Image</string>
+    <string name="dflt">Default</string>
+    <string name="color">Color</string>
+    <string name="action">Action</string>
+    <string name="metric">Metric</string>
+    <string name="price">Price</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="category">Category</string>
+    <string name="stock">Stock</string>
+    <string name="disc">Disc</string>
+    <string name="active">Active</string>
+    <string name="barcode">Barcode</string>
+    <string name="inventory">Inventory</string>
+    <string name="stock_onhand">Stock On Hand</string>
+    <string name="stock_mutation">Stock Mutation</string>
+    <string name="stock_card">Stock Card</string>
+    <string name="customers">Customers</string>
+    <string name="customer">Customer</string>
+    <string name="payments">Payments</string>
+    <string name="staffs">Staffs</string>
+    <string name="staff_list">Staff List</string>
+    <string name="staff_type">Staff Type</string>
+    <string name="last_inputted_date">last Inputted Date</string>
+    <string name="picked">Picked</string>
+    <string name="balance">Balance</string>
+    <string name="beginning_balance">Beginning Balance</string>
+    <string name="close">Close</string>
+    <string name="internal_server_error">Internal server Error</string>
+    <string name="payment_amount_not_valid">The payment amount is not valid</string>
+    <string name="success_add_category">Category added successfully</string>
+    <string name="fail_add_category">Failed to add category</string>
+    <string name="success_add_use">User added successfully</string>
+    <string name="fail_add_user">Failed to add user</string>
+    <string name="success_add_user_group">User group added successfully</string>
+    <string name="fail_add_user_group">Failed to add user group</string>
+    <string name="success_add_payment_method">Payment method added successfully</string>
+    <string name="fail_add_payment_method">Failed to add payment method</string>
+    <string name="success_add_customer">Customer added successfully</string>
+    <string name="fail_add_customer">Failed to add customer</string>
+    <string name="success_add_invoice">Invoice added successfully</string>
+    <string name="fail_add_invoice">Failed to add invoice</string>
+    <string name="success_edit_category">Category edited successfully</string>
+    <string name="fail_edit_category">Failed to edit category</string>
+    <string name="success_edit_user">User edited successfully</string>
+    <string name="fail_edit_user">Failed to edit user</string>
+    <string name="success_edit_user_group">User group edited successfully</string>
+    <string name="fail_edit_user_group">Failed to edit user group</string>
+    <string name="success_edit_payment_method">Payment method edited successfully</string>
+    <string name="fail_edit_payment_method">Failed to edit payment method</string>
+    <string name="success_edit_customer">Customer edited successfully</string>
+    <string name="fail_edit_customer">Failed to edit customer</string>
+    <string name="success_delete_invoice">Invoice deleted successfully</string>
+    <string name="fail_delete_invoice">Failed to delete invoice</string>
+    <string name="success_delete_category">Category deleted successfully</string>
+    <string name="fail_delete_category">Failed to delete category</string>
+    <string name="success_delete_user">User deleted successfully</string>
+    <string name="fail_delete_user">Failed to delete user</string>
+    <string name="success_delete_user_group">User group deleted successfully</string>
+    <string name="fail_delete_user_group">Failed to delete user group</string>
+    <string name="success_delete_customer">Customer deleted successfully</string>
+    <string name="fail_delete_customer">Failed to delete customer</string>
+    <string name="success_add_product">Product added successfully</string>
+    <string name="fail_add_product">Failed to add product</string>
+    <string name="success_add_onhand">Onhand added successfully</string>
+    <string name="fail_add_onhand">Failed to add onhand</string>
+    <string name="success_edit_product">Product edited successfully</string>
+    <string name="fail_edit_product">Failed to edit product</string>
+    <string name="success_delete_product">Product deleted successfully</string>
+    <string name="fail_delete_product">Failed to delete product</string>
+    <string name="success_add_invoice_line">Invoice item added successfully</string>
+    <string name="fail_add_invoice_line">Failed to add invoice item</string>
+    <string name="success_edit_invoice_line">Invoice item edited successfully</string>
+    <string name="fail_edit_invoice_line">Failed to edit invoice item</string>
+    <string name="success_delete_invoice_line">Invoice item deleted successfully</string>
+    <string name="fail_delete_invoice_line">Failed to delete invoice item</string>
+    <string name="success_create_sales_payment">Sales payment created successfully</string>
+    <string name="fail_create_sales_payment">Failed to create sales payment</string>
+    <string name="success_delete_payment_method">Payment method deleted successfully</string>
+    <string name="fail_delete_payment_method">Failed to delete payment method</string>
+    <string name="success_split_bill">Bill splited Successfully</string>
+    <string name="fail_split_bill">Failed to split bill</string>
+    <string name="not_enough_stock">Not enough stock</string>
+    <string name="use_stock">Use Stock</string>
+    <string name="use_discount">Use Discount</string>
+    <string name="no_category">No category</string>
+    <string name="choose_file">...</string>
+    <string name="error_product_list">Error when preparing product list</string>
+    <string name="type">Type</string>
+    <string name="permission">Permission</string>
+    <string name="point_of_sales">Point of Sales</string>
+    <string name="member_no">Member No</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="gender">Gender</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="memo">Memo</string>
+    <string name="product_name">product name</string>
+    <string name="category_name">category name</string>
+    <string name="change_method">Change Method</string>
+    <string name="qty">Qty.</string>
+    <!--<string name="total">Total</string>-->
+    <string name="newVal">(New)</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="discount">Discount</string>
+    <string name="service">Service(5%).</string>
+    <string name="tax">Tax(10%)</string>
+    <string name="total">Total</string>
+    <string name="new_invoice">New Invoice</string>
+    <string name="change_payment_method">Change Payment Method</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="payment">Payment</string>
+    <string name="refresh">Refresh</string>
+    <string name="change">Change</string>
+    <string name="create">Create</string>
+    <string name="add">Add</string>
+    <string name="or">OR</string>
+    <string name="ok">Ok</string>
+    <string name="invoice_no">Inv No</string>
+    <string name="date">Date</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="method">Method</string>
+    <string name="card_number">Card Number</string>
+    <string name="cashier">Cashier</string>
+    <string name="status">Status</string>
+    <string name="min_payment">Min. Payment</string>
+    <string name="max_payment">Max. Payment</string>
+    <string name="incoming_goods_date">Tanggal Barang Masuk</string>
+    <string name="bill1">Bill 1</string>
+    <string name="bill2">Bill 2</string>
+    <string-array name="array_gender">
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="array_user_menu">
+        <item>Log Out</item>
+        <item>Profile</item>
+    </string-array>
+    <string-array name="array_metric">
+        <item></item>
+        <item>Pcs</item>
+        <item>Kg</item>
+        <item>Liter</item>
+        <item>Box</item>
+    </string-array>
+    <string-array name="array_boolean">
+        <item></item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="array_paid">
+        <item></item>
+        <item>paid</item>
+        <item>unpaid</item>
+    </string-array>
+    <string-array name="array_permission">
+        <item>None</item>
+        <item>Read</item>
+        <item>Write</item>
+        <item>Read and write</item>
+    </string-array>
+
+    <string name="visibility_visible">0</string>
+    <string name="visibility_invisible">1</string>
+    <string name="visibility_gone">2</string>
+
+    <string name="no_item_is_specified">No item is specified</string>
+    <string name="customer_field_cannot_be_empty">Customer field can\'t be empty</string>
+    <string name="payment_field_cannot_be_empty">Payment field can\'t be empty</string>
+    <string name="metric_field_cannot_be_empty">Metric field can\'t be empty</string>
+    <string name="type_field_cannot_be_empty">Type field can\'t be empty</string>
+    <string name="warehouse_field_cannot_be_empty">Warehouse field can\'t be empty</string>
+    <string name="qty_field_cannot_be_empty">Qty. field can\'t be empty</string>
+    <string name="price_field_cannot_be_empty">Price field can\'t be empty</string>
+    <string name="amount_field_cannot_be_empty">Price field can\'t be empty</string>
+    <string name="gender_field_cannot_be_empty">Gender field can\'t be empty</string>
+    <string name="name_field_cannot_be_empty">Name field can\'t be empty</string>
+    <string name="product_field_cannot_be_empty">Product field can\'t be empty</string>
+    <string name="email_field_cannot_be_empty">Email field can\'t be empty</string>
+    <string name="password_field_cannot_be_empty">Password field can\'t be empty</string>
+    <string name="date_field_cannot_be_empty">Date field can\'t be empty</string>
+    <string name="either_name_or_customer_must_be_filled">Either name or customer must be filled</string>
+    <string name="cannot_find_the_specified_product">Can\'t find the specified product</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

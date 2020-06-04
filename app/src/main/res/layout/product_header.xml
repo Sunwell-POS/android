@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/text_no"
+        android:layout_width="@dimen/extra_short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:text="@string/no_mark"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_image"
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/image"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="@dimen/normal_short_text"
+        android:minWidth="@dimen/normal_short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/name"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/text_metric"
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/metric"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_price"
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/price"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_category"
+        android:layout_width="@dimen/short_long_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/category"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_barcode"
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/barcode"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_stock"
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/stock"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_discount"
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/disc"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_active"
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/active"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_action"
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/action"
+        android:textStyle="bold"
+    />
+
+</LinearLayout>

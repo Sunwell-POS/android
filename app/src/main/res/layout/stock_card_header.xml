@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="@dimen/normal_space">
+
+    <TextView
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/date" />
+
+    <TextView
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/balance"
+        android:textSize="@dimen/mid_small_font"/>
+
+    <TextView
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/register"
+        android:textSize="@dimen/mid_small_font"/>
+
+    <TextView
+        android:layout_width="@dimen/short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="@string/picked"
+        android:textSize="@dimen/mid_small_font"/>
+
+
+    <!--<TextView-->
+        <!--android:layout_width="@dimen/short_text"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/normal_short_space"-->
+        <!--android:visibility="@string/secondary_column"-->
+        <!--android:text="@string/status" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="@dimen/short_text"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/normal_short_space"-->
+        <!--android:visibility="@string/secondary_column"-->
+        <!--android:text="@string/action" />-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="@dimen/short_width"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/normal_short_space"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:visibility="@string/secondary_column">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/image_status"-->
+            <!--android:layout_width="@dimen/extra_small_image"-->
+            <!--android:layout_height="@dimen/extra_small_image"-->
+            <!--android:scaleType="fitXY"-->
+            <!--app:srcCompat="@drawable/wrong" />-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="@dimen/short_width"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/normal_short_space"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/button_edit"-->
+            <!--android:layout_width="@dimen/normal_big_button"-->
+            <!--android:layout_height="@dimen/normal_big_button"-->
+            <!--android:scaleType="fitXY"-->
+            <!--app:srcCompat="@drawable/edit"/>-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/button_delete"-->
+            <!--android:layout_width="@dimen/normal_big_button"-->
+            <!--android:layout_height="@dimen/normal_big_button"-->
+            <!--android:scaleType="fitXY"-->
+            <!--app:srcCompat="@drawable/delete"/>-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

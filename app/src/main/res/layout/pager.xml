@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/root"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/panel_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <AutoCompleteTextView
+            android:id="@+id/atc_product"
+            android:layout_width="@dimen/normal_short_input"
+            android:layout_height="wrap_content"
+            android:hint="@string/product"/>
+
+        <ImageButton
+            android:id="@+id/button_clear"
+            android:layout_width="@dimen/normal_small_image"
+            android:layout_height="@dimen/normal_small_image"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/wrong"/>
+
+        <ImageButton
+            android:id="@+id/button_category"
+            android:layout_width="@dimen/normal_small_image"
+            android:layout_height="@dimen/normal_small_image"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/category"
+            android:visibility="@string/secondary_column"/>
+
+        <!--<AutoCompleteTextView-->
+            <!--android:id="@+id/atc_category"-->
+            <!--android:layout_width="@dimen/normal_short_input"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="@dimen/normal_space"-->
+            <!--android:hint="@string/category"-->
+            <!--android:visibility="@string/secondary_column"/>-->
+
+        <ImageButton
+            android:id="@+id/button_search"
+            android:layout_width="@dimen/big_small_button"
+            android:layout_height="@dimen/big_small_button"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/search"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|end"
+        android:layout_marginTop="@dimen/long_space"
+        android:layout_marginBottom="@dimen/normal_space"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="@dimen/big_small_button"
+            android:layout_height="@dimen/big_small_button"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/back" />
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="@dimen/big_small_button"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="@dimen/big_small_button"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="@dimen/big_small_button"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+        <Button
+            android:id="@+id/button_4"
+            android:layout_width="@dimen/big_small_button"
+            android:layout_height="wrap_content"
+            android:text="4"/>
+        <Button
+            android:id="@+id/button_5"
+            android:layout_width="@dimen/big_small_button"
+            android:layout_height="wrap_content"
+            android:text="5"/>
+
+        <ImageButton
+            android:id="@+id/button_next"
+            android:layout_width="@dimen/big_small_button"
+            android:layout_height="@dimen/big_small_button"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/next" />
+    </LinearLayout>
+</LinearLayout>

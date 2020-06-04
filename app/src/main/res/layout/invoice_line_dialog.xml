@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/normal_space"
+        android:layout_marginBottom="@dimen/normal_extra_space"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_space"
+            android:layout_marginLeft="@dimen/normal_space"
+            android:textSize="@dimen/large_font"
+            android:textStyle="bold"
+            android:text="@string/add_invoice_item" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/normal_short_space"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="@dimen/short_long_text"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_short_space"
+            android:layout_marginLeft="@dimen/normal_short_space"
+            android:text="@string/price" />
+        <EditText
+            android:id="@+id/input_price"
+            android:layout_width="@dimen/normal_long_input"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_short_space"
+            android:layout_marginLeft="@dimen/normal_short_space"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/normal_short_space"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="@dimen/short_long_text"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_short_space"
+            android:layout_marginLeft="@dimen/normal_short_space"
+            android:text="@string/qty" />
+        <Button
+            android:id="@+id/button_neg_qty"
+            android:layout_width="@dimen/big_button"
+            android:layout_height="@dimen/big_button"
+            android:text="-" />
+        <EditText
+            android:id="@+id/input_qty"
+            android:layout_width="@dimen/short_input"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_short_space"
+            android:layout_marginLeft="@dimen/normal_short_space"
+            android:inputType="numberDecimal" />
+        <Button
+            android:id="@+id/button_plus_qty"
+            android:layout_width="@dimen/big_button"
+            android:layout_height="@dimen/big_button"
+            android:layout_marginRight="@dimen/normal_space"
+            android:text="+" />
+        <Spinner
+            android:id="@+id/spinner_metric"
+            android:layout_width="@dimen/normal_short_input"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_short_space"
+            android:layout_marginLeft="@dimen/normal_short_space"
+            android:entries="@array/array_metric"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/normal_short_space"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="@dimen/short_long_text"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_short_space"
+            android:layout_marginLeft="@dimen/normal_short_space"
+            android:text="@string/discount" />
+        <Button
+            android:id="@+id/button_percentage"
+            android:layout_width="@dimen/big_button"
+            android:layout_height="@dimen/big_button"
+            android:text="%" />
+        <Button
+            android:id="@+id/button_money"
+            android:layout_width="@dimen/big_button"
+            android:layout_height="@dimen/big_button"
+            android:layout_marginRight="@dimen/normal_space"
+            android:text="Rp" />
+        <EditText
+            android:id="@+id/input_discount"
+            android:layout_width="@dimen/short_input"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_short_space"
+            android:layout_marginLeft="@dimen/normal_short_space"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close" />
+
+        <Button
+            android:id="@+id/button_add_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_item" />
+    </LinearLayout>
+</LinearLayout>

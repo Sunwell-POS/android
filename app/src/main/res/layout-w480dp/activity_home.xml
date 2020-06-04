@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/main_toolbar"
+        layout="@layout/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/layout_sidebar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_toolbar"
+        android:layout_marginTop="@dimen/extra_long_space"
+        android:layout_marginLeft="@dimen/normal_space"/>
+
+    <FrameLayout
+        android:id="@+id/layout_fake"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_toolbar"
+        android:layout_marginTop="@dimen/extra_long_space"
+        android:layout_marginLeft="@dimen/main_content_left_bound"/>
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/layout_fake2"-->
+        <!--android:layout_width="1dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@id/main_toolbar"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginTop="32dp"/>-->
+
+    <FrameLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_toolbar"
+        android:layout_toRightOf="@id/layout_fake"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/extra_long_space"
+        android:layout_marginLeft="@dimen/extra_space"
+        android:layout_marginRight="@dimen/normal_space"/>
+
+</RelativeLayout>

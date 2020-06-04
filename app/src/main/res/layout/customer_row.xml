@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/text_no"
+        android:layout_width="@dimen/extra_short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="1"/>
+
+    <TextView
+        android:id="@+id/text_member_no"
+        android:layout_width="@dimen/normal_short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="TextView"
+        android:visibility="@string/secondary_column"/>
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="@dimen/normal_short_text"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="@dimen/normal_short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="TextView"
+        android:visibility="@string/secondary_column"/>
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="@dimen/normal_short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:text="TextView"
+        android:visibility="@string/secondary_column"/>
+
+
+    <LinearLayout
+        android:layout_width="@dimen/short_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_edit"
+            android:layout_width="@dimen/normal_small_image"
+            android:layout_height="@dimen/normal_small_image"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/edit"/>
+
+        <ImageButton
+            android:id="@+id/button_delete"
+            android:layout_width="@dimen/normal_small_image"
+            android:layout_height="@dimen/normal_small_image"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/delete"/>
+    </LinearLayout>L
+
+</LinearLayout>

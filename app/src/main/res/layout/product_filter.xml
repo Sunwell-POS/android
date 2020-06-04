@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="@dimen/extra_short_text"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space" />
+
+    <TextView
+        android:layout_width="@dimen/short_text"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/normal_short_space"/>
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="@dimen/normal_short_input"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_metric"
+        android:layout_width="@dimen/short_input"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_short_space"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:entries="@array/array_metric"
+        android:visibility="@string/secondary_column"
+        />
+
+    <!--<EditText-->
+        <!--android:id="@+id/input_metric"-->
+        <!--android:layout_width="@dimen/short_input"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/normal_short_space"-->
+        <!--android:visibility="@string/secondary_column"-->
+        <!--/>-->
+
+    <EditText
+        android:id="@+id/input_price"
+        android:layout_width="@dimen/short_input"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:visibility="@string/secondary_empty_column"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_width="@dimen/short_long_input"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_short_space"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:visibility="@string/secondary_column"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinner_use_barcode"
+        android:layout_width="@dimen/short_input"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_short_space"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:entries="@array/array_boolean"
+        android:visibility="@string/secondary_column"/>
+
+    <Spinner
+        android:id="@+id/spinner_use_stock"
+        android:layout_width="@dimen/short_input"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/normal_short_space"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:entries="@array/array_boolean"
+        android:visibility="@string/secondary_column"/>
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/cb_use_discount"-->
+        <!--android:layout_width="@dimen/short_text"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="@dimen/normal_short_space"-->
+        <!--android:layout_marginLeft="@dimen/normal_short_space" />-->
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/cb_active"-->
+        <!--android:layout_width="@dimen/short_text"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="@dimen/normal_short_space"-->
+        <!--android:layout_marginLeft="@dimen/normal_short_space" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/text_barcode"-->
+        <!--android:layout_width="@dimen/short_text"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/normal_short_text"-->
+        <!--android:visibility="@string/secondary_column"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/text_stock"-->
+        <!--android:layout_width="@dimen/short_text"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/normal_short_text"-->
+        <!--android:visibility="@string/secondary_column"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/text_discount"-->
+        <!--android:layout_width="@dimen/short_text"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/normal_short_text"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/text_active"-->
+        <!--android:layout_width="@dimen/short_text"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/normal_short_space"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:layout_width="@dimen/short_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/normal_short_space"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_search"
+            android:layout_width="@dimen/normal_big_button"
+            android:layout_height="@dimen/normal_big_button"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/search"/>
+
+    </LinearLayout>L
+
+</LinearLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <LinearLayout android:orientation="vertical"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/normal_space"
+                android:layout_marginBottom="@dimen/normal_extra_space"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/text_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/normal_space"
+                    android:layout_marginLeft="@dimen/normal_space"
+                    android:textSize="@dimen/large_font"
+                    android:textStyle="bold"
+                    android:text="@string/add_incoming_stock"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/normal_short_space"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="@dimen/short_text"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/normal_short_space"
+                    android:layout_marginLeft="@dimen/normal_short_space"
+                    android:text="@string/warehouse" />
+
+                <Spinner
+                    android:id="@+id/spinner_warehouse"
+                    android:layout_width="@dimen/normal_long_input"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/normal_short_space"
+                    android:layout_marginLeft="@dimen/normal_short_space"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/normal_short_space"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/short_text"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/normal_short_space"
+                    android:layout_marginLeft="@dimen/normal_short_space"
+                    android:text="@string/date" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/normal_short_space"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/input_date"
+                        android:layout_width="@dimen/normal_long_input"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/normal_short_space"
+                        android:layout_marginLeft="@dimen/normal_short_space"
+                        android:inputType="textEmailAddress" />
+                    <ImageButton
+                        android:id="@+id/button_date"
+                        android:layout_width="@dimen/normal_small_image"
+                        android:layout_height="@dimen/normal_small_image"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/calendar"/>
+                    </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/normal_extra_space"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/normal_short_space"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="@dimen/short_text"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/normal_short_space"
+                        android:layout_marginLeft="@dimen/normal_short_space"
+                        android:text="@string/memo" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/input_memo"
+                    android:layout_width="@dimen/normal_long_input"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/normal_short_space"
+                    android:layout_marginLeft="@dimen/normal_short_space"
+                    android:lines="3" />
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/panel_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="@dimen/normal_long_input"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/normal_short_space"
+                            android:layout_marginLeft="@dimen/normal_short_space"
+                            android:text="@string/product" />
+                        <TextView
+                            android:layout_width="@dimen/short_input"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/normal_short_space"
+                            android:layout_marginLeft="@dimen/normal_short_space"
+                            android:text="@string/qty" />
+                        <TextView
+                            android:layout_width="@dimen/short_long_input"
+                            android:layout_height="wrap_content"
+                            android:text="@string/unit_price" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/normal_short_space"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/input_product"
+                            android:layout_width="@dimen/normal_long_input"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/normal_short_space"
+                            android:layout_marginLeft="@dimen/normal_short_space" />
+
+                        <EditText
+                            android:id="@+id/input_qty"
+                            android:layout_width="@dimen/short_input"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/normal_short_space"
+                            android:layout_marginLeft="@dimen/normal_short_space"
+                            android:inputType="number" />
+
+                        <EditText
+                            android:id="@+id/input_price"
+                            android:layout_width="@dimen/short_long_input"
+                            android:layout_height="wrap_content" />
+
+                        <ImageButton
+                            android:id="@+id/button_delete_item"
+                            android:layout_width="@dimen/normal_small_image"
+                            android:layout_height="@dimen/normal_small_image"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/wrong"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_add_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/normal_short_space"
+                android:layout_marginLeft="@dimen/normal_short_space"
+                android:text="@string/add_more_product"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="end">
+
+                <Button
+                    android:id="@+id/button_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/close" />
+
+                <Button
+                    android:id="@+id/button_add_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_incoming_stock" />
+            </LinearLayout>
+        </LinearLayout>
+
+    <!--</ScrollView>-->
+</ScrollView>

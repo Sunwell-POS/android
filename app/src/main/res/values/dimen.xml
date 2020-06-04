@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="extra_short_text">32dp</dimen>
+    <dimen name="short_text">72dp</dimen>
+    <dimen name="short_long_text">96dp</dimen>
+    <dimen name="normal_short_text">128dp</dimen>
+    <dimen name="normal_text">160dp</dimen>
+    <dimen name="normal_long_text">192dp</dimen>
+
+    <dimen name="extra_short_input">32dp</dimen>
+    <dimen name="short_input">56dp</dimen>
+    <dimen name="short_long_input">72dp</dimen>
+    <dimen name="normal_short_input">96dp</dimen>
+    <dimen name="normal_input">128dp</dimen>
+    <dimen name="normal_long_input">160dp</dimen>
+
+    <dimen name="small_font">12sp</dimen>
+    <dimen name="mid_small_font">14sp</dimen>
+    <dimen name="mid_large_font">16sp</dimen>
+    <dimen name="large_font">18sp</dimen>
+    <dimen name="huge_font">24sp</dimen>
+
+    <dimen name="short_space">4dp</dimen>
+    <dimen name="normal_short_space">6dp</dimen>
+    <dimen name="normal_space">8dp</dimen>
+    <dimen name="normal_long_space">10dp</dimen>
+    <dimen name="normal_extra_space">12dp</dimen>
+    <dimen name="long_space">16dp</dimen>
+    <dimen name="extra_space">24dp</dimen>
+    <dimen name="extra_long_space">32dp</dimen>
+
+    <dimen name="long_gap">60dp</dimen>
+
+    <dimen name="extra_small_image">16dp</dimen>
+    <dimen name="small_image">24dp</dimen>
+    <dimen name="normal_small_image">36dp</dimen>
+    <dimen name="normal_image">50dp</dimen>
+    <dimen name="big_image">72dp</dimen>
+    <dimen name="extra_big_image">96dp</dimen>
+
+    <dimen name="normal_big_button">24dp</dimen>
+    <dimen name="big_small_button">32dp</dimen>
+    <dimen name="big_button">48dp</dimen>
+
+    <dimen name="short_width">72dp</dimen>
+    <dimen name="normal_width">160dp</dimen>
+    <dimen name="normal_long_width">192dp</dimen>
+
+    <dimen name="main_content_left_bound">@dimen/normal_space</dimen>
+</resources>

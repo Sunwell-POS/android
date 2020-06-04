@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/normal_short_space"
+        android:layout_marginRight="@dimen/long_space"
+        android:layout_marginTop="@dimen/normal_short_space"
+        android:text="Log In" />
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/normal_short_space"
+        android:layout_marginRight="@dimen/long_space"
+        android:layout_marginTop="@dimen/normal_short_space"
+        android:text="Register" />
+
+</LinearLayout>

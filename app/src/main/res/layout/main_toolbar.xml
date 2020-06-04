@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent" android:layout_height="match_parent">-->
+
+<!--</Toolbar>-->
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize">
+    <!--android:theme="@style/CustomBarTheme">-->
+    <!--android:theme="?attr/actionBarTheme">-->
+
+    <ImageButton
+        android:id="@+id/button_expand"
+        android:layout_width="@dimen/big_button"
+        android:layout_height="@dimen/big_button"
+        app:srcCompat="@drawable/expand"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/text_company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/extra_long_space"
+        android:textSize="@dimen/large_font"
+        android:textColor="@color/white"
+        android:text="Company Name" />
+
+</android.support.v7.widget.Toolbar>
